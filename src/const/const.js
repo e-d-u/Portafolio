@@ -1,22 +1,33 @@
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "Desarrollador Web - Linkealia (Contrato de prácticas)",
+    corporation: "Wordpress, HTML, CSS, Elementor, Google: Analytics, Ads, Search Console",
+    date: "09/2024 – actualidad",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Grado Superior Desarrollo de Aplicaciones Multiplataforma",
+    corporation: "IES RODRÍGUEZ MARÍN (SEVILLA) - ILERNA",
+    date: "2021 – 2024",
   },
   {
-    title: "Curso profesional de React Js",
-    corporation: "Código facilito - Remoto",
-    date: "04/2023 – 04/2023",
+    title: "Administrador de base de datos - Ayuntamiento (Contrato de prácticas)",
+    corporation: "Oracle Database, MongoDB, SQL, PL/SQL, Power BI",
+    date: "03/2021 - 06/2021",
+  },
+  {
+    title: "Grado Medio Sistemas Microinformáticos y Redes",
+    corporation: "IES LUIS CARRILLO SOTOMAYOR (CÓRDOBA)",
+    date: "2019 – 2021",
+  },
+  {
+    title: "Certificaciones",
+    corporation: "Master en SQL Server, Curso Figma, Diseño web con Elementor y Wordpress, Aptis B1",
   },
 ];
 
 export const IconKeys = {
+  kotlin:"kotlin",
+  ads:"ads",
   html: "html",
   css: "css",
   javaScript: "javaScript",
@@ -38,10 +49,36 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
+  c:"c",
+  centos:"centos",
+  docker:"docker",
+  java:"java",
+  mysql:"mysql",
+  odoo:"odoo",
+  python:"python",
+  ubuntuser:"ubuntuser",
+  windowserver:"windowserver",
+  wordpress:"wordpress",
   // here add more icon keys
 };
 
 export const skills = [
+  {
+    title: "Java",
+    icon: IconKeys.java,
+  },
+  {
+    title: "MySQL",
+    icon: IconKeys.mysql,
+  },
+  {
+    title: "C #",
+    icon:IconKeys.c,
+  },
+  {
+    title: "Python",
+    icon:IconKeys.python,
+  },
   {
     title: "Html",
     icon: IconKeys.html,
@@ -51,81 +88,47 @@ export const skills = [
     icon: IconKeys.css,
   },
   {
-    title: "JavaScript",
-    icon: IconKeys.javaScript,
+    title: "Kotlin",
+    icon:IconKeys.kotlin,
   },
   {
     title: "Astro",
     icon: IconKeys.astro,
   },
   {
-    title: "Tailwindcss",
-    icon: IconKeys.tailwind,
+    title: "Wordpress",
+    icon:IconKeys.wordpress,
   },
   {
-    title: "React Js",
-    icon: IconKeys.react,
+    title: "Google Ads",
+    icon:IconKeys.ads,
   },
   {
-    title: "Next Js",
-    icon: IconKeys.nextjs,
+    title: "Docker",
+    icon:IconKeys.docker,
   },
   {
-    title: "Git",
-    icon: IconKeys.git,
-  },
-
-  {
-    title: "Github",
-    icon: IconKeys.github,
-  },
-  {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
-  },
-
-  {
-    title: "Redux Js",
-    icon: IconKeys.redux,
-  },
-  {
-    title: "Styled Components",
-    icon: IconKeys.styled,
-  },
-  {
-    title: "Node Js",
-    icon: IconKeys.nodejs,
-  },
-  {
-    title: "TypeScript",
-    icon: IconKeys.typeScript,
-  },
-  {
-    title: "Radix UI",
-    icon: IconKeys.radix,
-  },
-
-  {
-    title: "React Query",
-    icon: IconKeys.reactQuery,
-  },
-  {
-    title: "Vite",
-    icon: IconKeys.vite,
-  },
-  {
-    title: "Zustand",
-    icon: IconKeys.zustand,
-  },
-
-  {
-    title: "Shadcn UI",
-    icon: IconKeys.shadcn,
+    title: "Odoo",
+    icon:IconKeys.odoo,
   },
   {
     title: "Mongo Db",
     icon: IconKeys.mongodb,
   },
+  {
+    title: "Windows Server",
+    icon:IconKeys.windowserver,
+  },
+  {
+    title: "Ubuntu Server",
+    icon:IconKeys.ubuntuser,
+  },
+  {
+    title: "Centos",
+    icon:IconKeys.centos,
+  },
+
+
 ];
 
 export const projects = [
