@@ -1,7 +1,7 @@
 export const studies = [
   {
-    title: "Desarrollador Web - Linkealia (Contrato de prácticas)",
-    corporation: "Wordpress, HTML, CSS, Elementor, Google: Analytics, Ads, Search Console",
+    title: "Desarrollador Web - Linkealia",
+    corporation: "Wordpress, HTML, CSS, Elementor, Odoo, Google: Analytics, Ads, Search Console",
     date: "09/2024 – actualidad",
   },
   {
